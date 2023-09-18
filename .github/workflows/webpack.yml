@@ -16,5 +16,5 @@ jobs:
         ARGS: '-rlgoDzvc -i --delete'
         SOURCE: 'dist'
         REMOTE_HOST: ${{ secrets.REMOTE_HOST2 }}
-        REMOTE_USER: 'ec2-user'
+        REMOTE_USER: 'root'
         TARGET: '/work/front/'
